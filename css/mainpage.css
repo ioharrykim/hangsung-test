@@ -1,0 +1,232 @@
+@charset 'utf-8';
+
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+body {
+    overflow-x: hidden;
+    color: rgb(29, 29, 31);
+    letter-spacing: -0.05em;
+    background: white;
+}
+p {
+    line-height: 1.6;
+}
+.local-nav {
+    height: 52px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 1rem;
+}
+.local-nav-links {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.local-nav-links .hangsung-title {
+    margin-right: auto;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.local-nav-links a:not(.hangsung-title) {
+    margin-left: 2em;
+}
+.local-nav-links a {
+    font-size: 0.8rem;
+}
+a {
+    color: rgb(29, 29, 31);
+    text-decoration: none;
+}
+.page-title {
+
+}
+.title-mockup {
+    background-color: #888;
+    height: 768px;
+}
+.title-mockup p {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 768px;
+}
+.scroll-section {
+    padding-top: 50vh;
+}
+#scroll-section-0 h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(8, 182, 129);
+}
+.main-message {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 0 1rem;
+    justify-content: center;
+    height: 7em;
+    font-size: 2.0rem;
+    background: rgba(0, 0, 0, 0.3);
+}
+.main-message p {
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+}
+.main-message small {
+    display: block;
+    font-size: 0.7rem;
+    margin-bottom: 0.5em;
+}
+#scroll-section-2 .main-message {
+    font-size: 1.8rem;
+}
+.description {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    color: #888;
+}
+.description strong {
+    float: left;
+    margin-right: 0.3em;
+    font-size: 3rem;
+    color: rgb(8, 182, 129);
+}
+.desc-message {
+    font-weight: bold;
+    width: 50%;
+}
+.sub-description {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+.sub-description h2 {
+    text-align: center;
+    margin-top: 5em;
+}
+.pin {
+    width: 1px;
+    height: 100px;
+    background: rgb(8, 182, 129);
+}
+.service-title-mockup {
+    background-image: url("../images/style4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 768px;
+    margin-top: 5em;
+}
+.service-title-mockup p {
+    font-size: 1.2rem;
+    width: 50%;
+    padding: 20% 5% 0 5%;
+    margin: 0 auto;
+    color: #888;
+}
+.mid-message {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-size: 2rem;
+    color: #888;
+}
+.mid-message strong {
+    color: rgb(8, 182, 129);
+    font-size: 3rem;
+}
+.canvas-caption {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #888;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+.video-intro {
+    background-color: #888;
+    height: 600px;
+    margin-top: 10em;
+}
+.video-intro video {
+    margin: 0 auto;
+
+}
+.video-intro p {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+.video-hangsung {
+    width: 480px;
+    height: 270px;
+}
+.service-mockup-zone {
+    height: 3000px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    height: 10rem;
+    background-color: rgb(8, 182, 129);
+}
+
+@media (min-width: 1024px) {
+    #scroll-section-0 h1 {
+        font-size: 9vw;
+    }
+    .main-message {
+        font-size: 4vw;
+    }
+    .description {
+        font-size: 1.2rem;
+    }
+    .description strong {
+        font-size: 3rem;
+    }
+    .sub-description {
+        font-size: 2rem;
+    }
+    #scroll-section-2 .main-message {
+        font-size: 4vw;
+    }
+    .main-message small {
+        font-size: 1.5vw;
+    }
+    .desc-message {
+        width: 20%;
+    }   
+    .mid-message {
+        font-size: 4vw;
+    }
+    .mid-message strong {
+        font-size: 6vw;
+    }
+    .service-title-mockup p {
+        font-size: 2rem;
+    }
+    .canvas-caption {
+        font-size: 2rem;
+    }
+    .video-intro {
+        height: 1100px;
+    }
+    .video-hangsung {
+        width: 1280px;
+        height: 720px;
+    }
+    .service-mockup-zone {
+        height: 5000px;
+    }
+}
